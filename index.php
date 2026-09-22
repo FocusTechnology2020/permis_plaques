@@ -2,7 +2,7 @@
 require_once __DIR__ . '/config.php';
 
 if (!is_logged_in()) {
-    header('Location: ' . ROOT_URL . 'login.php');
+    header('Location: ' . ROOT_URL . 'welcome.php');
     exit;
 }
 
